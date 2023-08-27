@@ -1,30 +1,51 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <Navbar :logo="logo_src" :alt="app_name"/>
+  <router-view />
+  <Footer/>
 </template>
 
+<script lang="ts">
+import { defineComponent } from 'vue'
+import Navbar from './components/Navbar.vue'
+import Footer from './components/Footer.vue'
+
+
+export default defineComponent({
+  components:{
+    Navbar,
+    Footer
+  },
+  data(){
+    return{
+      logo_src:"/img/logo.png" ,
+      app_name:"Make Your Burguer",
+    }
+  }
+})
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  font-family: helvetica;
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+.main-container{
+  margin: 50px;
+  min-height: 250px;
+}
+h1{
   text-align: center;
-  color: #2c3e50;
+  font-size:42px;
+  margin-bottom:30px;
+  color:#222;
 }
 
-nav {
-  padding: 30px;
+@media screen and (max-width:580px) {
+.main-container{
+  margin:10px
+}
 }
 
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-  color: #42b983;
-}
 </style>
