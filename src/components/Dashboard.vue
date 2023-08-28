@@ -1,6 +1,6 @@
 <template>
   <div id="burger-table" v-if="pedidos">
-    <Message :msg="msg" v-show="msg" />
+    <Message :msg="msg" :classe="tipoMsg" v-show="msg" />
     <div>
       <div id="burger-table-heading">
         <div class="order-id">Nº</div>
@@ -71,6 +71,7 @@ export default defineComponent({
       pedido: {} as IPedido,
       status: [] as IProduto[],
       msg: "" as String,
+      tipoMsg:"message-container" as String
     };
   },
 

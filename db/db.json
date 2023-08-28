@@ -88,6 +88,16 @@
       ],
       "status": "Finalizado",
       "id": 1
+    },
+    {
+      "nome": "Joao",
+      "carne": "Picanha",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Tomate"
+      ],
+      "status": "Solicitado",
+      "id": 2
     }
   ]
 }
