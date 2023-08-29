@@ -57,7 +57,7 @@
     </section>
     <section class="body-img">
       <div class="body-img-principal">
-        <img class="body-img-principal-img" :src="source" :alt="descr" />
+        <img class="body-img-principal-img" :src="source.toString()" :alt="descr.toString()" />
       </div>
       <div class="body-img-itens">
         <img

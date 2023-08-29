@@ -1,6 +1,6 @@
 <template>
   <div id="burger-table" v-if="pedidos">
-    <Message :msg="msg" :classe="tipoMsg" v-show="msg" />
+    <Message :msg="msg.toString()" :classe="tipoMsg.toString()" v-show="msg" />
     <div>
       <div id="burger-table-heading">
         <div class="order-id">Nº</div>

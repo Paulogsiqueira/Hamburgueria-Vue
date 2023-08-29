@@ -96,8 +96,34 @@
       "opcionais": [
         "Tomate"
       ],
-      "status": "Solicitado",
+      "status": "Finalizado",
       "id": 2
+    },
+    {
+      "nome": "Mario",
+      "carne": "Maminha",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Tomate",
+        "Pepino"
+      ],
+      "status": "Em Produção",
+      "id": 3
+    },
+    {
+      "nome": "Jorge",
+      "carne": "Veggie burger",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Bacon",
+        "Salame",
+        "Cebola roxa",
+        "Pepino",
+        "Tomate",
+        "Cheddar"
+      ],
+      "status": "Solicitado",
+      "id": 4
     }
   ]
 }

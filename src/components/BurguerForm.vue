@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Message :msg="msg" :classe="tipoMsg" v-show="msg" />
+    <Message :msg="msg" :classe="tipoMsg.toString()" v-show="msg" />
     <form id="burguer-form" @submit="createBurguer">
       <div class="input-container">
         <label for="nome">Nome do Cliente</label>
