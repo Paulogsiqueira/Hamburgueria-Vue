@@ -2,7 +2,7 @@
 
 **Obs: O link foi disponibilizado apenas para verificar o front-end. Para simular o funcionamento completo do site ele deve ser baixado e hospedado localmente com o json-server. O vídeo mostra o funcionamento completo**
 
-O site de hamburgueria é uma plataforma online que oferece aos clientes a possibilidade de montar seu próprio lanche personalizado, acompanhar o status dos pedidos, realizar alterações nos pedidos e até mesmo cancelar pedidos. Para garantir uma experiência fluida, o backend do site é simulado por meio de uma API json-server.
+O site de hamburgueria é uma plataforma online que oferece aos clientes a possibilidade de montar seu próprio lanche personalizado, acompanhar o status dos pedidos, realizar alterações nos pedidos e até mesmo cancelar pedidos. Para garantir uma experiência fluida, o backend do site é simulado por meio de uma API json-server. Além disso, todo o site é responsivo (tem sem layout adaptado ao tamanho da tela).
 
 Com o recurso de montar lanche, os clientes têm a liberdade de escolher os ingredientes que desejam adicionar ao seu hambúrguer, como tipo de pão, carnes, queijos e vegetais. Essa opção de personalização permite que cada cliente crie um lanche de acordo com suas preferências individuais.
 
@@ -52,6 +52,7 @@ https://www.youtube.com/watch?v=1V_nxOO8Ho4
 Nesse site utilizei os conhecimentos adquiridos durante os cursos oferecidos, por:
   - Matheus Battisti
   - Vinicios Neves
+  - Monica Hillman
 
 
 ## Observção
