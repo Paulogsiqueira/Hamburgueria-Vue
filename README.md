@@ -57,5 +57,5 @@ Nesse site utilizei os conhecimentos adquiridos durante os cursos oferecidos, po
 
 ## Observção
 
-O site de hamburgueria foi desenvolvido com o objetivo de treinar e praticar as habilidades em Vue e TypeScript. É importante ressaltar que o site não possui um backend real, mas simula o funcionamento de uma hamburgueria para fins de aprendizado e prática.
+O site de hamburgueria foi desenvolvido com o objetivo de treinar e praticar as habilidades em Vue e TypeScript. É importante ressaltar que o site não possui um backend real, mas simula o funcionamento de uma hamburgueria para fins de aprendizado e prática, utilizando a biblitoca JSON Server para simular uma API Fake.
 
